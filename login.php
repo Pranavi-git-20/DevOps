@@ -1,7 +1,7 @@
 <?php
-   include("config.php");
+   include("config.php");;
    session_start();
-   
+   <h1>ABP</h1>
    if($_SERVER["REQUEST_METHOD"] == "POST") {
       // username and password sent from form 
       
